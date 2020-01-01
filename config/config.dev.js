@@ -18,7 +18,7 @@ module.exports = appInfo => {
   // add your middleware config here
   config.middleware = [];
 
- /*  config.sequelize = {
+  config.sequelize = {
     datasources: [
       {
         delegate: 'mysqlModel', // load all models to app.model and ctx.model
@@ -42,7 +42,7 @@ module.exports = appInfo => {
         password: "123456",
       },
     ],
-  }; */
+  };
 
   config.cluster = {
     listen: {

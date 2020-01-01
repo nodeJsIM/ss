@@ -2,13 +2,13 @@
 
 ss for im 
 
-## QuickStart
-
-<!-- add docs here for user -->
-
-see [egg docs][egg] for more detail.
-
 ### Development
+
+#### 初始化数据
+
+```bash
+npx sequelize db:migrate
+```
 
 ```bash
 $ npm i

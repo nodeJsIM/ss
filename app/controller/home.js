@@ -5,7 +5,9 @@ const Controller = require('egg').Controller;
 class HomeController extends Controller {
   async index() {
     const { ctx } = this;
-    ctx.body = 'hi, egg';
+    console.log("this is test");
+    ctx.logger.info('------ this is index');
+    ctx.body = 'hi, egg xxxxx1!!!';
   }
 }
 
